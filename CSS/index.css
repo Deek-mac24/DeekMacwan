@@ -403,7 +403,7 @@ h2 {
 
   .logo a {
     margin: 0 0 0 15px;
-}
+  }
 
   .home {
     background-image: url(Images/Image4.jpg);
@@ -413,8 +413,10 @@ h2 {
 
 
   .home-content {
-    background:none;
+    background: none;
+    height: 145vh;
   }
+
   .Intro {
     background-image: url(Images/image6.jpg);
     background-position: center;
@@ -423,28 +425,26 @@ h2 {
     height: 100vh;
   }
 
-  .int{
+  .int {
     height: 100vh;
   }
 
-  .SecA3, .SecA4 {
+  .SecA3,
+  .SecA4 {
     font-size: 20px;
     margin: 35px 0;
-}
-
-  .Section2 {
-    height: 95vh;
   }
 
   .SecB6 {
     padding: 84px 76px;
     margin-top: 235px;
-
+    width: 175px;
   }
 
-  .Hr1, .Hr2 {
+  .Hr1,
+  .Hr2 {
     width: 301px;
-}
+  }
 
   #portfolioHide {
     display: none;
@@ -454,13 +454,15 @@ h2 {
     display: block;
     margin-top: 40px;
   }
+
   .Section2 {
-    background-image: url(Images/image5.jpg);
+    background-image: url(Images/Image5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
   }
+
   .section {
     height: 87vh;
     padding: 25px 0;
@@ -501,5 +503,9 @@ h2 {
 
   .secC5 textarea {
     width: 103%;
+  }
+
+  .contact {
+    height: 85vh;
   }
 }
