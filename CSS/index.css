@@ -427,6 +427,11 @@ h2 {
     height: 100vh;
   }
 
+  .SecA3, .SecA4 {
+    font-size: 20px;
+    margin: 35px 0;
+}
+
   .Section2 {
     height: 95vh;
   }
@@ -436,6 +441,10 @@ h2 {
     margin-top: 235px;
 
   }
+
+  .Hr1, .Hr2 {
+    width: 301px;
+}
 
   #portfolioHide {
     display: none;
