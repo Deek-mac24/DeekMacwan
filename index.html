@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Deek Macwan</a></div>
+            <div class="Ham-btn" onclick="toggleSidebar()">&#9776;</div>
+        </div>
+        <div class="sidebar sidebarGo" id="sidebar ">
+            <div class="close-btn" onclick="toggleSidebar()">&times;</div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#Intro" class="menu-btn">Intro</a></li>
+                <li><a href="#Education" class="menu-btn">Education</a></li>
+                <li><a href="#portfolio" class="menu-btn">My Portfolio</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text-1">Hello, I Am</div>
+            <div class="text-2">Deek Macwan</div>
+        </div>
+    </section>
+
+    <section class="Intro" id="Intro">
+        <div class="int">
+            <div class="title">Intro</div>
+            <div class="Sec1">
+                <div class="SecA1">Deek Macwan N.</div>
+                <div class="SecA2">- Student At Silver Oak University</div>
+                <hr class="Hr1" />
+                <div class="SecA3">+91 1234567890</div>
+                <hr class="Hr2">
+                <div class="SecA4">deekmacwan2824@gmail.com</div>
+            </div>
+
+            <div class="SecA5">"The greatest discovery in life is self-discovery.Until you find yourself,
+                you will always be someone else. Become yourself."</div>
+        </div>
+    </section>
+
+    <section class="Section2" id="Education">
+        <div class="SecB6">
+            <div class="secB1">Education</div>
+            <div class="education-info">
+                <div class="secB2">Silver Oak University</div>
+                <div class="secB3">B.Tech IT (2022-present)</div>
+                <hr class="Hr3">
+                <div class="secB4">St.Xavier's High School</div>
+                <div class="secB5">HSC (2019-2021)</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="wow bounce">PORTFOLIO</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" id="portfolioHide">
+                    <img src="CSS/Images/Img3.jpg" alt="portfolio img">
+                    <div class="portfolio-overlay">
+                        <h4>Deek Macwan</h4>
+                        <h5>Programming</h5>
+
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="CSS/Images/Img5.jpg" alt="portfolio img">
+                    <div class="portfolio-overlay">
+                        <h4>Deek Macwan</h4>
+                        <h5>Python Developer</h5>
+
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="CSS/Images/Img1.jpg" alt="portfolio img">
+                    <div class="portfolio-overlay">
+                        <h4>Deek Macwan</h4>
+                        <h5>Web Developer</h5>
+
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="CSS/Images/Img2.jpg" alt="portfolio img">
+                    <div class="portfolio-overlay">
+                        <h4>Deek Macwan</h4>
+                        <h5>Java Developer</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="secC1">Contact Me</div>
+        <div class="secC7">
+            <div class="secC2">Follow me</div>
+            <div class="secC6">
+                <ul>
+                    <li class="L1"><a href="https://github.com/Deek-mac24/2101031000096.git" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li class="L2"><a href="https://instagram.com/shaishav_mac?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li class="L3"><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                    <li class="L4"><a href="https://www.linkedin.com/in/macwan-deek" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="secC5">
+            <form action="#">
+                <input type="text" class="input" placeholder="Name" required>
+                <input type="email" class="input" placeholder="Email" required>
+                <div class="field">
+                    <input type="text" class="input" placeholder="Subject" required>
+                </div>
+                <div class="field">
+                    <textarea class="textarea" placeholder="Message" required></textarea>
+                </div>
+                <div class="button-area">
+                    <button type="submit" class="submit-btn">Send message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="foot1">
+       
+        <div class="Span1">
+            <span> Created By Deek Macwan &nbsp; | &nbsp;&copy; &nbsp; 2023 All
+                rights reserved. </span>
+        </div>
+    </footer>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
